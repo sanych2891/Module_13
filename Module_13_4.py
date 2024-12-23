@@ -8,7 +8,7 @@ class UserState(StatesGroup):
     growth = State()
     weight = State()
 
-api = "7800494853:AAEgJxJtctxBDlf1IBicvVP2inNli4Xet0o"
+api = ""
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
